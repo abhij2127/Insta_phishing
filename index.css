@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+
+h1{
+  padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.language{
+  font-family: sans-serif;
+  color:grey;
+  text-align:center;
+  margin-top:2vh;
+  font-size:12px;
+}
+
+.language span{
+  margin-left:8px;
+  display:inline-block;
+  transform:rotate(90deg);
+  font-family:fangsong;
+    font-weight:bold;
+
+}
+
+.container{
+  min-height: 74vh;
+  width:80%;
+  margin:auto;
+  margin-top:20px;
+  /*background-color: black;
+  color:#0095f6;*/
+}
+
+.head{
+  font-family: 'Grand Hotel', cursive;
+  text-align: center;
+  color:#262626;
+  display:flex;
+}
+.head h1{
+  /*background-image: url(https://www.instagram.com/static/bundles/es6/sprite_core_2x_bcd90c1d4868.png/bcd90c1d4868.png);*/
+  background-image: url('./Resources/tbdimg.png');
+  background-size: 440px 411px;
+  background-position: 0 -129px;
+  background-repeat: no-repeat;
+  height: 51px;
+  width: 175px;
+  display: block;
+  overflow: hidden;
+  text-indent: 110%;
+  white-space: nowrap;
+  margin: 22px auto 12px;
+/*  font-size:45px;*/
+}
+
+.fblog{
+  margin-top:30px;
+  display:flex;
+}
+
+.fbbtn{
+  background-color: #0095f6;
+  border:1px solid transparent;
+  border-radius:4px;
+  width:270px;
+  height:32px;
+  justify-content: space-between;
+  margin:auto;
+  color:white;
+  font-size:14px;
+  font-family: sans-serif;
+  font-weight: 700;
+
+}
+
+.fbico{
+  background-image: url('./Resources/tbdimg.png');
+  display: inline-block;
+    position: relative;
+    top: 3px;
+    background-size: 440px 411px;
+    background-position: -364px -329px;
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    margin-right: 8px;
+}
+
+
+.aux{
+  display:flex;
+  width:270px;
+  margin:auto;
+  margin-top:20px;
+  margin-bottom:30px;
+
+}
+.row{
+  width:121px;
+  padding:0;
+  height : 1px;
+  background-color:#dbdbdb;
+  position:relative;
+  top:7.5px;
+}
+.or{
+  color: rgba(var(--f52,142,142,142),1);
+  margin:0 14px;
+  font-family:sans-serif;
+  font-size:12px;
+  font-weight:bold;
+}
+
+.credform{
+  display:flex;
+  flex-direction: column;
+  width:270px;
+  margin:auto;
+}
+.cred input{
+  width:100%;
+  padding:13px 6px;
+  margin:5px 0;
+  border:1px solid #dbdbdb;
+  border-radius:4px;
+  font-size:12px;
+  font-weight:lighter;
+}
+.forget{
+  margin:14px 0;
+  text-align: right;
+  color:#0095f6;
+  font-family:sans-serif;
+  font-size:14px;
+}
+.forget a{
+  color:#0095f6;
+  text-decoration: none;
+}
+
+.cred input[type="submit"]{
+  background-color: #0095f6;
+  color:white;
+  padding:8px 0;
+  font-size:13px;
+  opacity:0.5;
+  padding:8px 0;
+  font-size:15px;
+  font-weight:bold;
+}
+
+form:valid input[type="submit"]{
+  opacity:1;
+}
+
+form:invalid input[type="submit"]{
+  opacity:0.5;
+}
+
+
+.addacc{
+  width:270px;
+  margin:auto;
+  padding:25px 0;
+  text-align:center;
+  color:grey;
+  font-family:sans-serif;
+  font-size:15px;
+
+}
+
+.addacc span{
+  color:#0095f6;
+  font-weight: bold;
+}
+
+.frommeta{
+  position:relative;
+  display: flex;
+  top:14vh;
+  margin:auto;
+}
+
+.frommeta span{
+    background-image: url('./Resources/tbeimg.png');
+  background-position: -427px -398px;
+      background-size: 569px 521px;
+      height: 26px;
+      width: 52px;
+      display:inline-block;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font: inherit;
+      vertical-align: baseline;
+      margin:auto;
+}
+
+form input:focus-visible{
+	outline: none;
+}
